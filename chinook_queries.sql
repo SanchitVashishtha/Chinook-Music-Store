@@ -690,7 +690,7 @@ SELECT
 FROM 
   ranked_album_sales
 WHERE 
-  'rank' <= 3
+  `rank` <= 3
 ORDER BY 
   `rank`, album
 LIMIT 5;
